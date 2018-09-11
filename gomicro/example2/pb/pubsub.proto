@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package pb;
+// Example message
+message Msg {
+	// unique id
+	int64 id=1;
+	// message
+	string context = 2;
+}
